@@ -1,0 +1,36 @@
+Spyral@DESKTOP-7KRANL6:~$ echo hello world
+hello world
+Spyral@DESKTOP-7KRANL6:~$ passwd
+Changing password for Spyral.
+(current) UNIX password:
+Enter new UNIX password:
+Retype new UNIX password:
+passwd: password updated successfully
+Spyral@DESKTOP-7KRANL6:~$ date
+Mon Jan  8 22:45:10 DST 2018
+Spyral@DESKTOP-7KRANL6:~$ hostname
+DESKTOP-7KRANL6
+Spyral@DESKTOP-7KRANL6:~$ arch
+x86_64
+Spyral@DESKTOP-7KRANL6:~$ uname -a
+Linux DESKTOP-7KRANL6 4.4.0-43-Microsoft #1-Microsoft Wed Dec 31 14:42:53 PST 2014 x86_64 x86_64 x86_64 GNU/Linux
+Spyral@DESKTOP-7KRANL6:~$ dmesg
+dmesg: read kernel buffer failed: Function not implemented
+Spyral@DESKTOP-7KRANL6:~$ uptime
+ 22:45:52 up 1 min,  0 users,  load average: 0.52, 0.58, 0.59
+Spyral@DESKTOP-7KRANL6:~$ who am i
+Spyral@DESKTOP-7KRANL6:~$ whoami
+Spyral
+Spyral@DESKTOP-7KRANL6:~$ who
+Spyral@DESKTOP-7KRANL6:~$ id
+uid=1000(Spyral) gid=1000(Spyral) groups=1000(Spyral),4(adm),20(dialout),24(cdrom),25(floppy),27(sudo),29(audio),30(dip),44(video),46(plugdev),109(netdev),110(lxd)
+Spyral@DESKTOP-7KRANL6:~$ last
+
+wtmp begins Fri Sep 22 23:15:02 2017
+Spyral@DESKTOP-7KRANL6:~$ finger
+w
+The program 'finger' is currently not installed. You can install it by typing:
+sudo apt install finger
+Spyral@DESKTOP-7KRANL6:~$ w
+ 22:46:31 up 2 min,  0 users,  load average: 0.52, 0.58, 0.59
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
