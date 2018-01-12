@@ -1,0 +1,6 @@
+Spyral@DESKTOP-7KRANL6:~$ ps man
+  PID TTY      STAT   TIME COMMAND
+    2 tty1     -      0:00 -bash
+    - -        Ss     0:00 -
+   32 tty1     -      0:00 ps man
+    - -        R      0:00 -
