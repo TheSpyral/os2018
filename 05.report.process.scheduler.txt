@@ -1,0 +1,62 @@
+ubuntu@ubuntu:~$ cat /proc/sched_debug
+
+gnome-terminal-  4512      1608.386700      3078   120         0.000000       523.656369         0.000000 /autogroup-92
+    
+dconf worker  4513      1119.338090        26   120         0.000000         0.476299         0.000000 /autogroup-92
+           
+gmain  4514      1205.501718         3   120         0.000000         0.046845         0.000000 /autogroup-92
+           
+gdbus  4515      1605.366937      1542   120         0.000000        64.255005         0.000000 /autogroup-92
+        
+gconfd-2  4519      1122.027890       103   120         0.000000         7.089102         0.000000 /autogroup-92
+            
+bash  4524        43.972948       206   120         0.000000        37.402274         0.000000 /autogroup-134
+ 
+update-notifier  4543      1717.446732       224   120         0.000000        55.997250         0.000000 /autogroup-118
+    
+dconf worker  4546      1236.299880        10   120         0.000000         0.211374         0.000000 /autogroup-118
+           
+gmain  4547      1717.592531        13   120         0.000000         0.676210         0.000000 /autogroup-118
+           
+gdbus  4548      1345.870110        58   120         0.000000         2.561508         0.000000 /autogroup-118
+R            
+cat  4554        45.008538         0   120         0.000000         0.483064         0.000000 /autogroup-134
+
+ubuntu@ubuntu:~$ cat /proc/1/sched
+systemd 
+(1, #threads: 1)
+-------------------------------------------------------------------
+se.
+exec_start                                   :        319275.688439
+se.
+vruntime                                     :           462.643139
+se.
+sum_exec_runtime                             :          4532.099158
+se.
+nr_migrations                                :                    0
+
+nr_switches                                  :                 3257
+
+nr_voluntary_switches                        :                  969
+
+nr_involuntary_switches                      :                 2288
+
+se.load.weight                               :                 1024
+
+se.avg.load_sum                              :               506046
+
+se.avg.util_sum                              :               315655
+
+se.avg.load_avg                              :                   10
+
+se.avg.util_avg                              :                    6
+
+se.avg.last_update_time                      :         319275688439
+
+policy                                       :                    0
+
+prio                                         :                  120
+
+clock-delta                                  :                   82
+
+
