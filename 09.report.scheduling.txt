@@ -1,0 +1,48 @@
+Gantt chart :
+- FCFS:
+P1: |********
+P2: |        ****
+P3: |            *
+P4: |             *****
+Wp1 = 0
+Wp2 = 8 ms
+Wp3 = 12 ms
+Wp4 = 13 ms
+Average T = 13.425 ms
+
+- SJF:
+P1: |*          *******
+P2: | * ***
+P3: |  *
+P4: |      *****
+Wp1 = 10 ms
+Wp2 = 1 ms
+Wp3 = 0 ms
+Wp4 = 4.1 ms
+Average T = 8.95 ms
+
+- SRTF:
+P1: |*          *******
+P2: | * ***
+P3: |  *
+P4: |      *****
+Wp1 = 10 ms
+Wp2 = 1 ms
+Wp3 = 0 ms
+Wp4 = 4.1 ms
+Average T = 8.95 ms
+
+- RR:
+P1: |*   *  *  *  * ***
+P2: | *   *  *  * 
+P3: |  *
+P4: |   *  *  *  * *
+Wp1 = 10 ms
+Wp2 = 7.6 ms
+Wp3 = 2 ms
+Wp4 = 8.7 ms
+Average T = 12.25 ms
+
+
+
+
